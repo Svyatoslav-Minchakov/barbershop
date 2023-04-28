@@ -1,0 +1,167 @@
+
+
+@media screen and (max-width: 767px) {
+  .about {
+    padding: 84px 0;
+
+    .tittle {
+      font-family: 'Raleway';
+      font-weight: 700;
+      font-size: 28px;
+      line-height: calc(33 / 28);
+      letter-spacing: 0.05em;
+      color: var(--dark-color);
+      margin-bottom: 20px;
+      max-width: 306px;
+    }
+  }
+
+  .about_left-side {
+    display: none;
+  }
+
+  
+
+  .about_description {
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    margin-bottom: 20px;
+
+  }
+
+  .about_article {
+    font-size: 14px;
+    line-height: calc(26 / 14);
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    padding: 100px 0;
+
+    .container {
+      display: flex;
+      gap: 30px;
+    }
+
+    .tittle {
+      font-family: 'Raleway';
+      font-weight: 700;
+      font-size: 28px;
+      line-height: calc(33 / 28);
+      letter-spacing: 0.05em;
+      color: var(--dark-color);
+      margin-bottom: 20px;
+    }
+
+    .subtittle {
+      margin-bottom: 20px;
+    }
+  }
+
+  .about_listitem {
+
+    &:first-child {
+      margin-bottom: 30px;
+    }
+  }
+
+  .about_list-1mage {
+    width: 330px;
+    
+  }
+
+  .about_description {
+    font-size: 18px;
+    line-height: calc(30 / 18);
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    margin-bottom: 20px;
+  }
+
+  .about_article {
+    font-size: 14px;
+    line-height: calc(26 / 14);
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    margin-bottom: 50px;
+    
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about {
+
+    .tittle {
+      font-family: 'Raleway';
+      font-weight: 700;
+      font-size: 42px;
+      line-height: calc(49 / 42);
+      letter-spacing: 0.05em;
+      width: 470px;
+      color: var(--dark-color);
+    }
+  }
+
+  .about_list {
+    display: flex;
+    gap: 30px;
+  }
+
+  .about_list-1mage {
+    width: 270px;
+  }
+
+  .about_description {
+    font-size: 18px;
+    line-height: calc(30 / 18);
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    width: 470px;
+  }
+  
+  .about_article {
+    font-size: 14px;
+    line-height: calc(26 / 14);
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    width: 470px;
+  }
+}
+
+// .about {
+//   padding: 120px 0;
+
+//   .container {
+//     display: flex;
+//     gap: 30px;
+//   }
+
+//   .subtittle {
+//     margin-bottom: 20px;
+//   }
+
+//   .tittle {
+//     margin-bottom: 20px;
+//   }
+// }
+
+
+
+// .about_list {
+//   display: flex;
+//   gap: 30px;
+// }
+
+// .about_description {
+//   margin-bottom: 20px;
+// }
+
+// .about_article {
+//   margin-bottom: 42px;
+// }

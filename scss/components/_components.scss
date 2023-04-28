@@ -1,0 +1,95 @@
+.container {
+  max-width: 480px;
+  width: 100%;
+  padding: 0 31px;
+  margin: 0 auto;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: calc(16 / 12);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--light-color);
+  width: 160px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid var(--accent-color);
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color var(--hover-transition);
+
+  &:hover {
+    background-color: var(--accent-color);
+  }
+}
+
+.btn-light-theme {
+  color: var(--text-color);
+  transition: color var(--hover-transition),
+    background-color var(--hover-transition);
+
+  &:hover,
+  &:focus {
+    color: var(--light-color);
+  }
+}
+
+.subtittle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 11);
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  color: var(--text-modify-color);
+
+  &::before {
+    content: '';
+    width: 60px;
+    height: 1px;
+    margin-right: 20px;
+    background-color: currentColor;
+  }
+}
+
+.sutitle-dark {
+  color: var(--dark-color);
+}
+
+.tittle {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 42px;
+  line-height: calc(49 / 42);
+  letter-spacing: 0.05em;
+  color: var(--dark-color);
+}
+
+.burger-menu {
+  background-color: transparent;
+  border: none;
+}
+
+.burger-menu__svg {
+  width: 40px;
+  height: 40px;
+  fill: var(--light-color);
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    width: 100%;
+    padding: 0 39px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+  }
+}

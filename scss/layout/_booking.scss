@@ -1,0 +1,127 @@
+.booking {
+  padding-top: 130px;
+
+  .tittle {
+    color: var(--light-color);
+    margin-bottom: 44px;
+  }
+}
+
+
+.booking-form {
+  max-width: 570px;
+}
+
+.booking-sign {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 11);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.4);
+}
+
+.booking-name {
+  margin-right: 25px;
+}
+
+.booking-name,
+.booking-tel {
+  width: 270px;
+  height: 32px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--text-modify-color);
+  margin-bottom: 44px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 11);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--light-color);
+  transition: border-bottom 250ms ease-in;
+
+  &:hover,
+  &:focus {
+    outline: none;
+    border-bottom: 1px solid var(--light-color);
+  }
+
+  &:hover::placeholder,
+  &:focus::placeholder {
+    color: var(--light-color);
+  }
+
+  &::placeholder {
+    transition: color 250ms ease-in;
+  }
+
+}
+
+.booking-text {
+  width: 100%;
+  height: 76px;
+  resize: none;
+  background-color: transparent;
+  border: none;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 11);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--light-color);
+  border-bottom: 1px solid var(--text-modify-color);
+  margin-bottom: 44px;
+  transition: border-bottom 250ms ease-in;
+  
+  &:hover,
+  &:focus {
+    outline: none;
+    border-bottom: 1px solid var(--light-color);
+    
+  }
+
+  &:hover::placeholder,
+  &:focus::placeholder {
+    color: var(--light-color);
+  }
+
+  &::placeholder {
+    transition: color 250ms ease-in;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .booking {
+    padding: 84px 31px;
+  }
+
+  .booking-name,
+  .booking-tel {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .booking {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .btn {
+      margin-left: 0;
+    }
+  }
+
+  .booking-form {
+    max-width: 100%;
+  }
+
+  .booking-name,
+  .booking-tel {
+    width: calc(50% - (30px / 2));
+  }
+
+  .booking-text {
+    width: 100%;
+  }
+}

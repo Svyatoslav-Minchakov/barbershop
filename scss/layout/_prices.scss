@@ -1,0 +1,288 @@
+@media screen and (max-width: 767px) {
+  .prices {
+
+    .container {
+      padding: 84px 31px;
+      background-color: #111319;
+      background-image: url(../images/prices/prices-mobile-bg.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      
+    }
+
+    .tittle {
+      font-family: 'Raleway';
+      font-weight: 700;
+      font-size: 40px;
+      line-height: calc(47 / 40);
+      letter-spacing: 0.05em;
+      color: var(--light-color);
+      margin-bottom: 44px;
+    }
+
+    .subtittle {
+      color: rgba(157, 164, 189, 0.6);
+    }
+
+    .btn {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .prices_box {
+    margin-bottom: 44px;
+    padding: 30px 20px 30px 40px;
+    background-image: linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.2) 100%);
+  }
+
+  .prises_left-list,
+  .prises_right-list {
+    font-size: 14px;
+    line-height: calc(20 / 14);
+    letter-spacing: 0.02em;
+    color: var(--text-modify-color);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .prises_left-list-item,
+  .prises_right-list-item {
+    display: flex;
+    align-items: baseline;
+    &::after {
+      content: '';
+      display: block;
+      flex-shrink: 0;
+      flex-grow: 1;
+      width: 50px;
+      height: 1px;
+      background-color: rgba(157, 164, 189, 0.12);
+    }
+  }
+
+  .prises_left-list:first-child {
+    margin-bottom: 25px;
+  }
+
+  .cost {
+    order: 1;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 280px), screen and (min-resolution: 192dpi) and (min-width: 280px), screen and (min-resolution: 2dppx) and (min-width: 280px) {
+  .prices {
+    .container {
+      background-image: url(../images/prices/prices-mobile-bg@2x.png);
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .prices {
+
+    .container {
+      background-color: #111319;
+      padding: 100px 26px 100px 39px;
+      background-image: url(../images/prices/prices-tablet-bg.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .tittle {
+      font-family: 'Raleway';
+      font-weight: 700;
+      font-size: 42px;
+      line-height: calc(49 / 42);
+      letter-spacing: 0.05em;
+      color: var(--light-color);
+      margin-bottom: 44px;
+    }
+
+    .subtittle {
+      color: rgba(157, 164, 189, 0.6);
+      margin-bottom: 20px;
+    }
+  }
+
+  .prices_box {
+    background-image: linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.2) 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 32px 40px;
+    margin-bottom: 44px;
+  }
+
+  .prises_left-list,
+  .prises_right-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .prises_left-list-item,
+  .prises_right-list-item {
+    line-height: calc(30 / 18);
+    letter-spacing: 0.02em;
+    color: var(--text-modify-color);
+    display: flex;
+    align-items: baseline;
+    
+
+    &::after {
+      content: '';
+      display: block;
+      width: 50px;
+      height: 1px;
+      background-color: rgba(157, 164, 189, 0.12);
+      flex-grow: 1;
+    }
+  }
+
+  .cost {
+    order: 1;
+  }
+
+  .btn {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  .prices {
+
+    .container {
+      background-image: url(../images/prices/prices-tablet-bg@2x.png);
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .prices {
+
+    .container {
+      background-image: url(../../images/prices/prices-desktop-bg.png);
+      
+    }
+  }
+
+  .prices_box {
+    flex-direction: row;
+    gap: 30px;
+    background-image: none;
+    padding: 0;
+  }
+
+
+  .prises_right-list {
+    padding: 30px 20px;
+    width: calc(50% - 15px);
+    background-image: linear-gradient(180deg, #090B13 0%, rgba(9, 11, 19, 0.2) 100%);
+  }
+
+  .prises_left-list {
+    padding: 30px 20px;
+    width: calc(50% - 15px);
+    background-image: linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.2) 100%);
+  }
+
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+  .prices {
+    .container {
+      background-image: url(../images/prices/prices-desktop-bg@2x.png);
+    }
+  }
+}
+
+
+
+// .prices {
+//   padding: 120px 0;
+//   background-image: url(../images/prices/prices-bg.png),
+//     linear-gradient(#111319, #111319);
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   background-size: cover;
+
+//   .tittle {
+//     color: var(--light-color);
+//     margin-bottom: 44px;
+//   }
+
+//   .subtittle {
+//     margin-bottom: 20px;
+//   }
+
+//   .btn {
+//     margin: 0 auto;
+//     display: block;
+//   }
+// }
+
+// .prices_box {
+//   display: flex;
+//   gap: 30px;
+//   margin-bottom: 44px;
+// }
+
+// .prises_left-list,
+// .prises_right-list {
+//   width: calc((100% - 30px) / 2);
+//   padding: 30px 20px;
+//   background-color: rgba(148, 123, 123, 0.2);
+// }
+
+// .prises_left-list {
+//   background-image: linear-gradient(
+//     180deg,
+//     #171a24 0%,
+//     rgba(23, 26, 36, 0.2) 100%
+//   );
+// }
+
+// .prises_right-list {
+//   background-image: linear-gradient(
+//     180deg,
+//     #090b13 0%,
+//     rgba(9, 11, 19, 0.2) 100%
+//   );
+// }
+
+// .prises_right-list-item,
+// .prises_left-list-item {
+//   font-size: 14px;
+//   line-height: calc(26 / 14);
+//   letter-spacing: 0.02em;
+//   color: var(--text-modify-color);
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: baseline;
+//   column-gap: 12px;
+
+//   &:not(:last-child) {
+//     margin-bottom: 20px;
+//   }
+
+//   &:not(:last-child) {
+//     margin-bottom: 20px;
+//   }
+
+//   &::before {
+//     content: '';
+//     width: 100px;
+//     height: 1px;
+//     background-color: rgba(157, 164, 189, 0.12);
+//     flex-grow: 1;
+//   }
+// }
+
+// .service {
+//   order: -1;
+// }

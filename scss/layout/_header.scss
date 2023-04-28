@@ -1,0 +1,166 @@
+.page-header {
+  position: absolute;
+  width: 100%;
+  
+  .container {
+    display: flex;
+    padding: 40px 31px;
+    justify-content: space-between;
+    position: relative;
+    
+  }
+
+  .phone {
+    display: none;
+  }
+
+  .btn {
+    display: none;
+  }
+}
+
+.page-header_list {
+  display: none;
+}
+
+.logo-svg {
+  width: 69px;
+  height: 56px;
+  fill: var(--light-color);
+}
+
+@media screen and (min-width: 768px) {
+  .page-header {
+
+
+    
+
+    .phone {
+      display: block;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: calc(16 / 12);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--light-color);
+    }
+
+    .btn {
+      display: block;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: calc(16 / 12);
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      color: var(--light-color);
+    }
+
+    .container {
+      justify-content: space-between;
+      padding: 32px 39px;
+    }
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  .page-header_list {
+    display: flex;
+    gap: 20px;
+  }
+
+  .navigation {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+  }
+
+  .logo {
+    margin-right: 58px;
+    
+  }
+
+  .logo-svg {
+    fill: var(--dark-color);
+  }
+
+  .page-header__flex-box {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .page-header_list-item {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: calc(16 / 12);
+    letter-spacing: 0.1em;
+    color: var(--light-color);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .page-header {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    padding: 32px 0;
+    max-width: 1200px;
+    width: 100%;
+  
+    .container {
+      display: flex;
+      align-items: center;
+      padding: 0 15px;
+    }
+  
+    .btn {
+      margin-right: 17px;
+      transition: background-color var(--hover-transition);
+    }
+  }
+  
+  
+  
+  .page-header_list {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: calc(16 / 12);
+    letter-spacing: 0.1em;
+    color: var(--light-color);
+    display: flex;
+    gap: 30px;
+  }
+  
+  .phone {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: calc(16 / 12);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--light-color);
+    transition: color var(--hover-transition);
+  
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
+  }
+  
+  .logo {
+    margin-right: 130px;
+  }
+
+  .page-header__flex-box {
+    flex-direction: row;
+    gap: 43px;
+  }
+}
+
+
+
+
+
+

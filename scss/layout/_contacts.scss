@@ -96,7 +96,7 @@
     padding: 100px 31px;
     display: flex;
     flex-wrap: wrap;
-    background-image: url(../../images/contacts/contacts-tablet-bg.png);
+    background-image: url(../images/contacts/contacts-tablet-bg.png);
 
 
     .tittle {
@@ -115,6 +115,6 @@
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .contacts {
-    background-image: url(../../images/contacts/contacts-tablet-bg@2x.png);
+    background-image: url(../images/contacts/contacts-tablet-bg@2x.png);
   }
 }
